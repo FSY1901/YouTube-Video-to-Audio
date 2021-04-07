@@ -4,7 +4,6 @@ while True:
     url = input("Enter the url: \n")
     video = pafy.new(url)
     audio = video.audiostreams
-    # D:\AmarB\Music
     folder = input("Enter location: \n")
 
     for a in audio:
